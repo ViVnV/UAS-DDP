@@ -179,11 +179,10 @@ func cariResep() {
 			for i, bahan := range resep.Bahan {
 				fmt.Printf("%d. %s - %s %s\n", i+1, bahan.Nama, bahan.Jumlah, bahan.Satuan)
 			}
-			fmt.Println("Langkah-langkah:")
+			fmt.Println("Langkah-langkah: ")
 			for i, langkah := range resep.Langkah {
 				fmt.Printf("%d. %s\n", i+1, langkah)
 			}
-			break
 		}
 	}	
 	// Kondisi apabila resep tidak ditemukan
